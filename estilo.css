@@ -1,0 +1,44 @@
+ body{padding-top: 70px;width: 100vw;height: 100vh;box-sizing: content-box;}
+ 
+.navbar-default .custom, footer{color: white;background-color: blue;border-radius: 5px;}
+ #panelUsuarios,#panelCategorias,#panelRecursos,#panelReservas,#panelPersonas, #panelConfiguracion{display: none;}
+ .navbar .navbar-brand, .navbar .nav .menu-link a,.navbar #perfil  a{color:white;}
+ .navbar .nav .sub-menu a{color:black;}
+ footer{bottom: 0px; left:0px;position: fixed;width:100%;margin-right: auto;margin-left: auto;}
+
+ #logout{display:none;}
+ #nbre_user{display:none;}
+ #login_a{display:none};
+ .modal-header{color: white; background-color: blue;border-radius: 5px;padding-top:5px; padding-bottom: 5px;}
+ #rowsReserva{padding-top: 5px;max-height:60vh;}
+ table {
+  display: block;
+  overflow-x: auto;border-collapse:separate;overflow-y: auto;
+}
+#loginModal .modal-header{border-bottom: none;}
+.fijar {
+  position: sticky;left:0;
+  /*width: 6rem; /* Ancho fijo de la primera columna */
+}
+.fijarTop {
+  position: sticky;top:0;
+  /*width: 6rem; /* Ancho fijo de la primera columna */
+}
+.avatar {width: 25%; height: 25%;  display: flex;}
+.avatar img{max-width: 100%;max-height: 100%; align-self: center;border:solid #0026ff;}
+/*.opciones{display: none;}*/
+
+.modal{background-color: hsla(240, 100%, 5%,0.8);}
+#msgModal .modal-content {background-color: transparent; color:white; box-shadow: none;border:none; align-items:  center;}
+#msgModal img{width: 50%;height: 50%;}
+
+#datosRecursos table,#verReservasModal table, #tablaNR table{border:none;display: inline-table;max-width: 90%;width: 90%;}
+#verRecModal .modal-footer, #verRecModal .modal-body,
+#verRecModal .modal-header,#verReservasModal .modal-footer,
+#verReservasModal .modal-body,#verReservasModal .modal-header{border:none;padding-bottom:0px;margin-bottom:0px;margin-top: 0px;margin-bottom: 0px;}
+.modal-body{max-height: 75vh;height: 100%;}
+.modal-body table{max-height: 50vh;height:50%;overflow-y: auto;}
+#rowsReserva{max-height: 30vh;height: 100%;overflow-y: auto;}
+.panel{max-height: 85vh;height: 100%;position: sticky;top: 0;overflow: auto;}
+.oculto{display: none}
+/*#fechaNR .ui-state-highlight{background-color: red}*/
